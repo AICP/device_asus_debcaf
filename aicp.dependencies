@@ -1,0 +1,22 @@
+[
+  {
+    "repository": "AICP/device_asus_flocaf",
+    "target_path": "device/asus/flocaf",
+    "branch":      "mm6.0"
+  },
+  {
+   "repository":  "AICP/kernel_asus_flo",
+   "target_path": "kernel/asus/flo",
+   "branch":      "mm6.0-caf"
+  },
+  {
+   "repository":  "AICP/proprietary_vendor_asus",
+   "target_path": "vendor/asus",
+   "branch":      "mm6.0"
+  },
+  {
+   "repository":  "CyanogenMod/android_external_stlport",
+   "target_path": "external/stlport",
+   "branch":      "cm-13.0"
+  }
+]
