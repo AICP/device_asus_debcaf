@@ -22,8 +22,8 @@ PRODUCT_PACKAGES += \
     BasicSmsReceiver
 
 PRODUCT_COPY_FILES += \
-    device/asus/deb/fstab.deb:root/fstab.flo \
-    device/asus/deb/init.deb.rc:root/init.flo.rc
+    device/asus/debcaf/fstab.deb:root/fstab.flo \
+    device/asus/debcaf/init.deb.rc:root/init.flo.rc
 
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.gsm.xml:system/etc/permissions/android.hardware.telephony.gsm.xml
@@ -43,9 +43,9 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
         rild.libpath=/system/lib/libril-qc-qmi-1.so
 
 # the actual meat of the device-specific product definition
-$(call inherit-product, device/asus/flo/device-common.mk)
+$(call inherit-product, device/asus/flocaf/device-common.mk)
 
 # inherit from the non-open-source side, if present
 $(call inherit-product-if-exists, vendor/asus/deb/device-vendor.mk)
 
-DEVICE_PACKAGE_OVERLAYS := device/asus/deb/overlay
+DEVICE_PACKAGE_OVERLAYS := device/asus/debcaf/overlay

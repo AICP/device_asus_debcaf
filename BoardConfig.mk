@@ -16,13 +16,13 @@
 
 TARGET_BOOTLOADER_BOARD_NAME := deb
 TARGET_BOOTLOADER_NAME := deb
-TARGET_BOARD_INFO_FILE := device/asus/deb/board-info.txt
+TARGET_BOARD_INFO_FILE := device/asus/debcaf/board-info.txt
 
 BOARD_HAL_STATIC_LIBRARIES := libdumpstate.deb
 
-TARGET_RELEASETOOLS_EXTENSIONS := device/asus/deb
+TARGET_RELEASETOOLS_EXTENSIONS := device/asus/debcaf
 
-TARGET_RECOVERY_FSTAB = device/asus/deb/fstab.deb
+TARGET_RECOVERY_FSTAB = device/asus/debcaf/fstab.deb
 
 -include vendor/asus/deb/BoardConfigVendor.mk
-include device/asus/flo/BoardConfigCommon.mk
+include device/asus/flocaf/BoardConfigCommon.mk
