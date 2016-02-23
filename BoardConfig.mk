@@ -18,7 +18,7 @@ TARGET_BOOTLOADER_BOARD_NAME := deb
 TARGET_BOOTLOADER_NAME := deb
 TARGET_BOARD_INFO_FILE := device/asus/debcaf/board-info.txt
 
-BOARD_HAL_STATIC_LIBRARIES := libdumpstate.deb
+BOARD_HAL_STATIC_LIBRARIES := libdumpstate.debcaf
 
 TARGET_RELEASETOOLS_EXTENSIONS := device/asus/debcaf
 
