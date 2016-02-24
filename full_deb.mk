@@ -15,7 +15,7 @@
 #
 $(call inherit-product, device/asus/debcaf/aosp_deb.mk)
 
-PRODUCT_NAME := full_deb
+PRODUCT_NAME := full_debcaf
 
 $(call inherit-product-if-exists, vendor/asus/deb/deb-vendor.mk)
 
